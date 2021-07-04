@@ -7,6 +7,10 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
 .orange-color{
     color: orange;
 }
@@ -48,4 +52,33 @@ h1{
 
 .right-pad{
     padding-right: 150px;
+}
+.experience-unit{
+    box-shadow: 10px 10px 20px gray;
+    width: 50%;
+    margin-left: 6%;
+    margin-right: 5%;
+    padding-left: 20px;
+}
+
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#expo-unit1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#expo-unit2{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
